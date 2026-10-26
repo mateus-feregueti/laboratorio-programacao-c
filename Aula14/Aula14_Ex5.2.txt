@@ -1,0 +1,13 @@
+5.2 Questão – Aplicação de Matrizes em C: Reserva de Assentos no Cinema
+Um cinema possui 5 fileiras, com 8 assentos em cada uma. Para controlar as reservas, o sistema utiliza
+uma matriz, na qual:
+• 0 representa um assento disponível.
+• 1 representa um assento ocupado.
+Considerando essa situação, qual alternativa apresenta corretamente a declaração da matriz em C e a
+forma de acessar o terceiro assento da segunda fileira?
+a) ( ) int assentos[8][5]; e assentos[2][3]
+b) ( ) int assentos[5][8]; e assentos[2][3]
+c) ( ) int assentos[5][8]; e assentos[1][2]
+d) ( ) int assentos[5]; e assentos[1][2]
+
+RESPOSTA: Letra C
