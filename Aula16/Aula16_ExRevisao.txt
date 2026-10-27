@@ -1,0 +1,15 @@
+Exercícios de revisão de conteúdo
+
+6. Qual é a diferença entre char e uma string?
+
+R: O tipo char armazena um único caractere, enquanto uma string é uma sequência de caracteres armazenada em um vetor do tipo char e finalizada pelo caractere nulo '\0'.
+
+
+7. Por que uma string precisa do caractere '\0'?
+
+R: Porque o caractere nulo indica o final da string, permitindo que o programa identifique onde termina o texto.
+
+
+8. Qual é a diferença entre ler um texto com scanf("%s", ...) e com fgets(...)?
+
+R: O scanf("%s", ...) interrompe a leitura ao encontrar um espaço em branco, enquanto o fgets(...) permite ler textos com espaços e limita a quantidade de caracteres armazenados no vetor.
