@@ -1,0 +1,37 @@
+1. Qual função não possui parâmetros nem retorno?
+
+A função do Tipo 1, que utiliza void antes do nome e void entre parênteses.
+
+Exemplo:
+void mensagem(void) {
+    printf("Ola!\n");
+}
+
+
+2. Quais funções recebem dois parâmetros?
+
+As funções somar(), subtrair(), multiplicar() e dividir() da primeira questão, além de maiorPreco() da segunda questão.
+
+Todas recebem dois valores para realizar suas operações.
+
+3. Qual é a finalidade do return nas funções matemáticas?
+
+O comando return serve para devolver o resultado calculado pela função ao local onde ela foi chamada.
+
+Exemplo:
+int somar(int a, int b) {
+    return a + b;
+}
+
+
+4. Por que o programa utiliza switch?
+
+O switch permite selecionar e executar diferentes operações de acordo com a opção escolhida pelo usuário, tornando o código mais organizado.
+
+5. Qual é a finalidade da estrutura do...while?
+
+A estrutura do...while permite repetir um bloco de comandos enquanto uma condição for verdadeira. A diferença é que o bloco é executado pelo menos uma vez antes da verificação da condição.
+
+6. Por que a divisão por zero precisa ser verificada?
+
+Porque a divisão por zero não é matematicamente definida. Por isso, o programa precisa verificar se o divisor é diferente de zero antes de realizar a operação.
